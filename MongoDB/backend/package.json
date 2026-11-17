@@ -1,0 +1,20 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/db.js",
+  "scripts": {
+    "start": "node src/db.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^2.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2",
+    "node-fetch": "^3.3.2"
+  }
+}
